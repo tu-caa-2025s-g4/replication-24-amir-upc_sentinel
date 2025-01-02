@@ -1,5 +1,12 @@
 # UPC Sentinel
-UPC Sentinel detects upgradeability proxy contracts (UPCs) through a two-layered approach. The input of UPC sentinel is a list of smart contract addresses. The architecture of UPC Sentinel consists of two distinct layers: i) the proxy contract detector and ii) the upgradeability detector. The proxy contract detector ascertains if a given contract operates as a proxy. In contrast, the upgradeability detector examines whether an identified proxy contract is specifically tailored for upgradeability purposes. For every input contract, the output of UPC Sentinel is a binary label that determines whether the given contract is an upgradeability proxy contract (UPC) or Non-UPC.
+We now introduce the UPC Sentinel algorithm, which detects upgradeability proxy contracts (UPCs) through a three-layered approach. The input to UPC Sentinel is a list of smart contract addresses. 
+
+Following Figure illustrates the architecture of UPC Sentinel, comprising three distinct layers:  
+1. **Proxy Contract Detector**: Determines if a given contract operates as a proxy.
+2. **Upgradeability Detector**: Examines whether an identified proxy contract is specifically tailored for upgradeability purposes.
+3. **Upgradeability Pattern Classifier**: Provides a detailed classification, identifying the specific upgradeability proxy pattern that the detected UPC adheres to.
+
+For each input contract address, UPC Sentinel produces a binary label indicating whether the contract is a UPC or not. If classified as a UPC, it further identifies the specific upgradeability proxy pattern associated with the contract.
 
 ![UPC Sentinel architecture](./UPC_Sentinel_Arch.JPG)
 
