@@ -7,10 +7,10 @@ The sheet contains the original ground truth labels provided by Bodell III et al
 ### `contract_address`
 - **Description:** The unique Ethereum contract address.
 
-### `is-proxy-groundtruth-bodell (GB1) (original label by Bodell III et al)`
+### `is-proxy-groundtruth-bodell (GB1) (original label by Bodell III et al.)`
 - **Description:** The original ground truth proxy labels (i.e., whether it is a proxy or non-proxy) supplied by Bodell III et al. [1]. This is included for transparency purposes only and should **not** be used for evaluation purposes.
 
-### `is-proxy-groundtruth-bodell (GB2) (refined label by Ebrahimi et al)`
+### `is-proxy-groundtruth-bodell (GB2) (refined label by Ebrahimi et al.)`
 - **Description:** The refined/corrected UPC labels provided by Ebrahimi et al. [2]. By comparing this column to the **is-proxy-groundtruth-bodell (GB1) (original label by bodell III et al)**, one can identify instances where the original UPC labels were incorrect and have been subsequently corrected/refined. These refined labels represent the accurate ground truth proxy labels and can be safely used for evaluation purposes.
 - **Note:** Please refer to the manuscript for more details.
 ### `is-upc-groundtruth-bodell (GB1)` (original label by Bodell III et al.)
