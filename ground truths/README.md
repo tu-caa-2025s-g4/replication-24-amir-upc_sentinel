@@ -1,5 +1,4 @@
-
-# GB - 920 UPCs & Non-UPCs.csv
+ GB - 920 UPCs & Non-UPCs.csv
 This document provides a description of the columns in the **GB - 920 UPCs & Non-UPCs.csv** sheet. 
 The sheet contains the original ground truth labels provided by Bodell III et al.'s replication package, as well as the refined labels for instances where the original ground truth was incorrect and subsequently updated during our study. For additional details, please consult the accompanying manuscript or relevant references.
 
@@ -9,18 +8,18 @@ The sheet contains the original ground truth labels provided by Bodell III et al
 - **Description:** The unique Ethereum contract address.
 
 ### `is-proxy-groundtruth-bodell (GB1) (original label by bodell III et al)`
-- **Description:** The original proxy label (i.e., whether it is a proxy or non-proxy) provided by Bodell III et al. [1].
+- **Description:** The original ground truth proxy labels (i.e., whether it is a proxy or non-proxy) supplied by Bodell III et al. [1]. This is just for transparancy reasons. Do not use this for evaluation purposes. 
 
 ### `is-proxy-groundtruth-bodell (GB2) (refined label by ebrahimi et al)`
-- **Description:** The refined/corrected proxy label provided by Ebrahimi et al. [2].
+- **Description:** The refined/corrected proxy label provided by Ebrahimi et al. [2]. When comparing to the **is-proxy-groundtruth-bodell (GB1) (original label by bodell III et al)**, one can distinguish instances whose origiinal proxy label were incorrect and subsequnetly were corrected/refined by us. 
 - **Note:** Please refer to the manuscript for more details.
 
 ### `is-upc-groundtruth-bodell (GB1) (original label by bodell III et al)`
-- **Description:** The original UPC label (i.e., whether it is a UPC or non-UPC) provided by Bodell III et al. [1].
+- **Description:** The original UPC label (i.e., whether it is a UPC or non-UPC) provided by Bodell III et al. [1]. This is just for transparancy reasons. Do not use this for evaluation purposes. 
 
 
 ### `is-upc-groundtruth-bodell (GB3) (refined label by ebrahimi et al)`
-- **Description:** The refined/corrected UPC label provided by Ebrahimi et al. [2].
+- **Description:** The refined/corrected UPC label provided by Ebrahimi et al. [2].  When comparing to the **is-upc-groundtruth-bodell (GB1) (original label by bodell III et al)**, one can distinguish instances whose origiinal upc label were incorrect and subsequnetly were corrected/refined by us. 
 - **Note:** Please refer to the manuscript for more details.
   
 # GE - 3177 UPCs.csv
