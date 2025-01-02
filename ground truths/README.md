@@ -29,4 +29,5 @@ The sheet contains 3,177 upgradeability proxy contracts (UPCs) collected during 
 
 ## References
 [1] Bodell III, William E., Sajad Meisami, and Yue Duan. "Proxy hunting: understanding and characterizing proxy-based upgradeable smart contracts in blockchains." 32nd USENIX Security Symposium (USENIX Security 23). 2023.
+
 [2] Ebrahimi, Amir & Adams, Bram & Oliva, Gustavo & Hassan, Ahmed E.. (2023). UPC Sentinel: An Accurate Approach for Detecting Upgradeability Proxy Contracts in Ethereum. 10.13140/RG.2.2.34439.16808. 
