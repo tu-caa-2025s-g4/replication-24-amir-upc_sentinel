@@ -22,10 +22,10 @@ This document provides a description of the columns in the **RQ2 & RQ3 Findings*
 - **Description:** The unique Ethereum contract address.
 
 ### `is-proxy-groundtruth-bodell (GB1) (original label by bodell III et al)`
-- **Description:** The original proxy label (i.e., whether it is a proxy or non-proxy) provided by Bodell III et al.
+- **Description:** The original proxy label (i.e., whether it is a proxy or non-proxy) provided by Bodell III et al. [1].
 
 ### `is-proxy-groundtruth-bodell (GB2) (refined label by ebrahimi et al)`
-- **Description:** The refined proxy label provided by Ebrahimi et al.
+- **Description:** The refined proxy label provided by Ebrahimi et al. [2].
 - **Note:** Please refer to the manuscript for more details.
 
 ### `is-active-proxy`
@@ -38,10 +38,10 @@ This document provides a description of the columns in the **RQ2 & RQ3 Findings*
 - **Description:** Prediction of UPC Sentinel for the proxy identification task.
 
 ### `is-upc-groundtruth-bodell (GB1) (original label by bodell III et al)`
-- **Description:** The original UPC label (i.e., whether it is a UPC or non-UPC) provided by Bodell III et al.
+- **Description:** The original UPC label (i.e., whether it is a UPC or non-UPC) provided by Bodell III et al. [1].
 
 ### `is-upc-groundtruth-bodell (GB3) (refined label by ebrahimi et al)`
-- **Description:** The refined UPC label provided by Ebrahimi et al.
+- **Description:** The refined UPC label provided by Ebrahimi et al. [2].
 - **Note:** Please refer to the manuscript for more details.
 
 ### `is-upc-uschunt`
@@ -50,6 +50,7 @@ This document provides a description of the columns in the **RQ2 & RQ3 Findings*
 ### `is-upc-upcsentinel`
 - **Description:** Prediction of UPC Sentinel for the UPC identification task, based on the USCHUNT replication package.
 
----
+## References
+[1] Bodell III, William E., Sajad Meisami, and Yue Duan. "Proxy hunting: understanding and characterizing proxy-based upgradeable smart contracts in blockchains." 32nd USENIX Security Symposium (USENIX Security 23). 2023.
 
-For additional details, please consult the accompanying manuscript or relevant references.
+[2] Ebrahimi, Amir & Adams, Bram & Oliva, Gustavo & Hassan, Ahmed E.. (2023). UPC Sentinel: An Accurate Approach for Detecting Upgradeability Proxy Contracts in Ethereum. 10.13140/RG.2.2.34439.16808. 
