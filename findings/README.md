@@ -8,9 +8,9 @@ This document provides a description of the columns in the **RQ1 Findings** shee
 ### `is-upc-upcsentinel`
 - **Description:** Prediction of UPC Sentinel for the UPC identification task.
 ### `is-proxy-upcsentinel`
-- **Description:** Prediction of UPC Sentinel for the proxy identification task, based on the USCHUNT replication package.
+- **Description:** Prediction of UPC Sentinel for the proxy identification task.
 ### `implementation-contracts`
-- **Description:** The complete list of implementation contract addresses collected as of data collection timestamp.
+- **Description:** The complete list of implementation contract addresses collected as of Sept. 2022.
 
 
 # RQ2 & RQ3 Findings Sheet
