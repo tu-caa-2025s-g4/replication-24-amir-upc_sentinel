@@ -1,5 +1,19 @@
-# RQ2 & RQ3 Findings Sheet
+# RQ1 Findings Sheet
+This document provides a description of the columns in the **RQ1 Findings** sheet. The sheet contains labels and predictions for UPC identification tasks on the GE ground truth containting 3,177 collected UPCs.
 
+### `contract_address`
+- **Description:** The unique Ethereum contract address.
+### `is-upc-groundtruth`
+- **Description:** The ground truth UPC label provided by Ebrahimi et al. All 3,177 instances are UPCs.
+### `is-upc-upcsentinel`
+- **Description:** Prediction of UPC Sentinel for the UPC identification task.
+### `is-proxy-upcsentinel`
+- **Description:** Prediction of UPC Sentinel for the proxy identification task, based on the USCHUNT replication package.
+### `implementation-contracts`
+- **Description:** The complete list of implementation contract addresses collected as of data collection timestamp.
+
+
+# RQ2 & RQ3 Findings Sheet
 This document provides a description of the columns in the **RQ2 & RQ3 Findings** sheet. The sheet contains labels and predictions for proxy and UPC identification tasks in Ethereum smart contracts.
 
 ## Column Descriptions
