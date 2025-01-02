@@ -1,1 +1,1 @@
-
+The files provided serve as supporting materials for Section **4: Available Contract Data Sources** of the manuscript. These files detail the manual verification process conducted to validate the employed ground truth labels. The file names correspond to the specific sections or steps described within the manuscript.
