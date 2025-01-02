@@ -119,23 +119,30 @@ CORE_COUNT = int(multiprocessing.cpu_count() * 0.75) # 80 * .75 = 60 # number of
 
 ## Citations
 
-This project uses data and methodologies based on several foundational texts and papers. If you use this software, adapt its code, or incorporate its methodologies in academic or professional contexts, please consider citing the following:
+This project uses data and methodologies based on several foundational texts and papers. If you use this software, adapt its code, or incorporate its methodologies in academic or professional contexts, please consider citing the following two papers:
 
 ```
 @article{Ebrahimi23,
 author = {Ebrahimi, Amir and Adams, Bram and Oliva, Gustavo and Hassan, Ahmed E.},
 year = {2023},
-month = {05},
-pages = {},
-title = {A Large-Scale Exploratory Study on the Proxy Pattern in Ethereum}
-}
-
-@unknown{Ebrahimi24,
-author = {Ebrahimi, Amir and Adams, Bram and Oliva, Gustavo and Hassan, Ahmed E.},
-year = {2023},
 month = {12},
 pages = {},
 title = {UPC Sentinel: An Accurate Approach for Detecting Upgradeability Proxy Contracts in Ethereum},
+doi = {10.13140/RG.2.2.34439.16808}
+}
+
+@article{Ebrahimi24,
+  author = {Ebrahimi, Amir M. and Adams, Bram and Oliva, Gustavo A. and Hassan, Ahmed E.},
+  title = {A large-scale exploratory study on the proxy pattern in Ethereum},
+  journal = {Empirical Software Engineering},
+  volume = {29},
+  number = {4},
+  pages = {81},
+  year = {2024},
+  month = {June},
+  doi = {10.1007/s10664-024-10485-1},
+  url = {https://doi.org/10.1007/s10664-024-10485-1},
+  issn = {1573-7616}
 }
 
 ```
