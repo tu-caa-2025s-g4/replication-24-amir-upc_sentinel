@@ -1,4 +1,4 @@
- GB - 920 UPCs & Non-UPCs.csv
+# GB - 920 UPCs & Non-UPCs.csv
 This document provides a description of the columns in the **GB - 920 UPCs & Non-UPCs.csv** sheet. 
 The sheet contains the original ground truth labels provided by Bodell III et al.'s replication package, as well as the refined labels for instances where the original ground truth was incorrect and subsequently updated during our study. For additional details, please consult the accompanying manuscript or relevant references.
 
