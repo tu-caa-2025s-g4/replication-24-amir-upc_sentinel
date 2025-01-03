@@ -122,13 +122,14 @@ CORE_COUNT = int(multiprocessing.cpu_count() * 0.75) # 80 * .75 = 60 # number of
 This project uses data and methodologies based on several foundational texts and papers. If you use this software, adapt its code, or incorporate its methodologies in academic or professional contexts, please consider citing the following two papers:
 
 ```
-@article{Ebrahimi23,
-author = {Ebrahimi, Amir and Adams, Bram and Oliva, Gustavo and Hassan, Ahmed E.},
-year = {2023},
-month = {12},
-pages = {},
-title = {UPC Sentinel: An Accurate Approach for Detecting Upgradeability Proxy Contracts in Ethereum},
-doi = {10.13140/RG.2.2.34439.16808}
+@misc{ebrahimi2024,
+      title={UPC Sentinel: An Accurate Approach for Detecting Upgradeability Proxy Contracts in Ethereum}, 
+      author={Amir M. Ebrahimi and Bram Adams and Gustavo A. Oliva and Ahmed E. Hassan},
+      year={2024},
+      eprint={2501.00674},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2501.00674}, 
 }
 
 @article{Ebrahimi24,
