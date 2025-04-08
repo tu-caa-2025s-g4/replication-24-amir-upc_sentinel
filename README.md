@@ -10,6 +10,31 @@ For each input contract address, UPC Sentinel produces a binary label indicating
 
 ![UPC Sentinel architecture](./UPC_Sentinel_Arch.JPG)
 
+## Current Detection Capabilities of UPC Sentinel
+
+**UPC Sentinel** was originally designed to detect **active Upgradeability Proxy Contracts (UPCs)**. An *active UPC* refers to a proxy contract whose forwarding functionality (e.g., via `delegatecall`) has been used at least once after deployment. This detection relies on **dynamic analysis**, specifically, analyzing transactions that interact with the contract. Since dynamic analysis depends on actual transactional activity, **contracts with no interactions cannot be classified as proxies** using this method alone. However, within UPC Sentinel’s **Upgradeability Pattern Detector** layer, we’ve embedded a **static analysis component** that analyzes the **decompiled bytecode** of smart contracts. This static detection approach is functionally equivalent to dynamic analysis, with the added benefit of detecting **inactive proxies** (those with no on-chain activity). The trade-off is a potential reduction in scalability due to the need for bytecode decompilation.
+
+We are currently in the process of **enabling this static component**, which will allow UPC Sentinel to detect **both active and inactive proxy contracts**.
+
+> ⚠️ **Note**: For inactive proxies, even though we can identify that a contract is a proxy, we are currently **unable to extract its implementation address**. This is because doing so requires **reading on-chain storage** (specifically, the storage slot where the implementation address is saved), which involves interacting with the live blockchain, something static analysis alone cannot accomplish.
+
+### ✅ The Good News
+
+For several proxy pattern variants, it is possible to determine whether a contract is a UPC **without needing to read its storage**. As shown in the table below, **UPC Sentinel can detect both active and inactive proxies** for those patterns. For other patterns (particularly the last three), identifying the implementation address or external logic contract is essential for accurate classification, this is a capability we plan to introduce in a future update.
+
+| Upgradeability Reference Design  | Upgradeability Proxy Pattern Variant                     | Active | Inactive |
+|----------------------------------|----------------------------------------------------------|:------:|:--------:|
+| SMUP                             | Inherited Storage Upgradeability Proxy                   | ✅     | ✅      |
+| SMUP                             | Eternal Storage Upgradeability Proxy                     | ✅     | ✅      |
+| SMUP                             | ERC-1967 Upgradeability Proxy (Unstructured Store)       | ✅     | ✅      |
+| SMUP                             | Transparent Upgradeability Proxy                         | ✅     | ✅      |
+| DUP                              | ERC-2535 Diamonds Upgradeability Proxy                   | ✅     | ✅      |
+| DUP                              | ERC-1822 Universal Upgradeable Proxy                     | ✅     | ❌      |
+| ESUP                             | Beacon Upgradeability Proxy                              | ✅     | ❌      |
+| ESUP                             | Registry Upgradeability Proxy                            | ✅     | ❌      |
+
+
+
 # Getting Started with Google BigQuery for Free
 
 Google BigQuery is a powerful, scalable, and cost-effective multi-cloud data warehouse designed for business agility. This README provides step-by-step instructions to set up a free Google BigQuery account.
