@@ -10,7 +10,7 @@ For each input contract address, UPC Sentinel produces a binary label indicating
 
 ![UPC Sentinel architecture](./UPC_Sentinel_Arch.JPG)
 
-## UPC Sentinel (V2)
+# UPC Sentinel V2
 
 **UPC Sentinel** was originally designed to detect **active Upgradeability Proxy Contracts (UPCs)**. An *active UPC* refers to a proxy contract whose forwarding functionality (e.g., via `delegatecall`) has been used at least once after deployment. This detection relies on **dynamic analysis**, specifically, analyzing transactions that interact with the contract. Since dynamic analysis depends on actual transactional activity, **contracts with no interactions cannot be classified as proxies** using this method alone. However, within UPC Sentinel’s **Upgradeability Pattern Detector** layer, we’ve embedded a **static analysis component** that analyzes the **decompiled bytecode** of smart contracts. This static detection approach is functionally equivalent to dynamic analysis, with the added benefit of detecting **inactive proxies** (those with no on-chain activity). The trade-off is a potential reduction in scalability due to the need for bytecode decompilation.
 
@@ -34,8 +34,29 @@ For several proxy pattern variants, it is possible to determine whether a contra
 | ESUP                             | Registry Upgradeability Proxy                            | ✅     | ❌      |
 
 
+## 📁 Folder Structure
 
-# Getting Started with Google BigQuery for Free
+The repository is organized as follows:
+
+- `benchmarks/`  
+  Contains a set of upgradeable smart contract benchmarks collected from academic papers and gray literature. These contracts are verified using UPC Sentinel V2.
+
+- `examples/`  
+  Part of the replication package for the UPC Sentinel paper. This folder includes examples demonstrating cases where source code contains dead proxy contracts, leading to inaccuracies in source code-level UPC detectors.
+
+- `findings/`  
+  Part of the replication package for the UPC Sentinel paper. This folder includes the empirical results and findings related to all research questions (RQs) addressed in the UPC Sentinel paper.
+
+- `groundtruths/`  
+  Part of the replication package for the UPC Sentinel paper. This folder includes the two ground truth datasets used for evaluating UPC Sentinel’s detection performance. This is part of the replication package.
+
+- `quality checks on ground truths/`  
+  Part of the replication package for the UPC Sentinel paper. This folder documents the step-by-step process of identifying and correcting inaccuracies in one of the employed ground truth datasets to improve label quality and resolve misclassified instances.
+
+- `src/`  
+  Part of the replication package for the UPC Sentinel paper. This folder includes the source code for UPC Sentinel. This is the core detection tool evaluated and described in the accompanying paper.
+
+# How to Setup Google BigQuery for Free
 
 Google BigQuery is a powerful, scalable, and cost-effective multi-cloud data warehouse designed for business agility. This README provides step-by-step instructions to set up a free Google BigQuery account.
 
