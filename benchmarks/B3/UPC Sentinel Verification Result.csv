@@ -1,0 +1,101 @@
+address,groundtruth-is-upc,upcsentinel-is-upc,upcsentinel-is-proxy-static-analysis,upcsentinel-is-proxy-dynamic-analysis,upcsentinel-is-proxy,upcsentinel-logic-contract-count,upcsentinel-logic-contract-addr,upcsentinel-proxy-funcs-start-loc,upcsentinel-upc-reference-design,upcsentinel-upgrade-funcs-contract-path,"upcsentinel-upgrade-funcs-(sig,loc-range)"
+0xde157688a36ac94b6e5f52e99c196f79ac71cea3,True,True,True,True,True,3,"['0xb92a94bf33a7e83717afe13972ca7f38663e4447', '0x9690c383a992edd3e0479c5f3071765bd787be3b', '0x08ca5e242486931b63811c370b5da1a1f31690e4']",[20],SMUP,0xde157688a36ac94b6e5f52e99c196f79ac71cea3,"[('def updateImplementation(address _newImplementation): # not payable', (45, 60))]"
+0xd8eeb76bf9fec7efe3772383d5f38fd02243e56c,False,True,True,True,True,1,['0xef49ea6996073752b6840cda34773ffa78f78166'],"[389, 489, 522, 1473]",SMUP,0xd8eeb76bf9fec7efe3772383d5f38fd02243e56c,"[('def unknown078a13b1(addr _param1, addr _param2, addr _param3, addr _param4) payable: ', (473, 488)), ('def unknownf5e95acb(addr _param1, addr _param2, addr _param3, addr _param4, addr _param5, addr _param6, addr _param7, addr _param8, addr _param9) payable: ', (705, 740))]"
+0x0d29ada4c818a9f089107201eacc6300e56e0d5c,True,True,True,True,True,2,"['0x6230f5c4193e632b084a083dba713e73651bb93a', '0x4db0319a402809a2c81051ab1549acf15809d1b3']",[32],SMUP,0x0d29ada4c818a9f089107201eacc6300e56e0d5c,"[('def updateImplementation(address _newImplementation): # not payable', (41, 56))]"
+0x0b9020d4e32990d67559b1317c7bf0c15d6eb88f,True,True,True,True,True,3,"['0x62d7e87677ac7e3bd02c198e3fabeffdbc5eb2a3', '0xcfa65db73cb45d458d0a98006d3d558b5e1f021d', '0x46ca157573005281774be9be9a4187cce4ec1871']",[20],SMUP,0x0b9020d4e32990d67559b1317c7bf0c15d6eb88f,"[('def updateImplementation(address _newImplementation): # not payable', (39, 54))]"
+0xd6f5c46d4e1a02f9d145cee41d2f8af30d8d2d76,False,True,True,True,True,1,['0xef49ea6996073752b6840cda34773ffa78f78166'],"[389, 489, 522, 1471]",SMUP,0xd6f5c46d4e1a02f9d145cee41d2f8af30d8d2d76,"[('def unknown078a13b1(addr _param1, addr _param2, addr _param3, addr _param4) payable: ', (473, 488)), ('def unknownf5e95acb(addr _param1, addr _param2, addr _param3, addr _param4, addr _param5, addr _param6, addr _param7, addr _param8, addr _param9) payable: ', (703, 738))]"
+0x046e32797f6fdeb4d1cc28f9ccded8c37e075813,True,True,True,True,True,1,['0x07e4b30283261d63aa127b7f97329e53a56efdd8'],[14],SMUP,0x046e32797f6fdeb4d1cc28f9ccded8c37e075813,"[('def updateImplementation(address _newImplementation) payable: ', (39, 55))]"
+0x0098af0ceac1238bfa1eb43652a700d1fcd379f0,False,True,True,True,True,7,"['0x185486869e615f5a5644991a491212582caa08fb', '0xc1a5deebfa5316f1d3dcb0a5e4ca12d329e8149d', '0x01d5dc56ad4206bb0c132d834644d57f51fed5ec', '0x5052053d958c763e96d4908990e74df2e04299eb', '0x7e94d6cabb20114b22a088d828772645f68cc67b', '0x053fa9b934b83e1e0ffc7e98a41aadc3640bb462', '0xf98864da30a5bd657b13e70a57f5718abf7bab31']",[39],ESUP,0x33a02e6cc863d393d6bf231b697b82f6e499ca71,"[('def unknown2026cfdc(uint256 _param1, addr _param2) payable: ', (106, 116))]"
+0x56972fae079cf3b68734c4cc611bc16d6eb6b11d,False,True,True,False,True,Inactive Proxy: Logics cannot be obtained dynamically,[],[29],SMUP,0x56972fae079cf3b68734c4cc611bc16d6eb6b11d,"[('def updateImplementation(address _newImplementation): # not payable', (38, 53))]"
+0x7ae26d335fe9ab350538369171243fd3083dcfd2,False,True,True,True,True,1,['0x6ff5a740b0a3313db778c99604036fcde7b8b741'],[33],SMUP,0x7ae26d335fe9ab350538369171243fd3083dcfd2,"[('def updateImplementation(address _newImplementation): # not payable', (42, 57)), ('def unknownd88ca2c8(addr _param1, array _param2) payable: ', (58, 114))]"
+0xa9ab9deb680ceb90d12849e812e068017911aa55,False,True,True,False,True,Inactive Proxy: Logics cannot be obtained dynamically,[],[32],SMUP,0xa9ab9deb680ceb90d12849e812e068017911aa55,"[('def updateImplementation(address _newImplementation): # not payable', (41, 56))]"
+0x1950bb2f0732a78b98adab118791b997a39bb29b,True,True,True,True,True,1,['0xf650c3d88d12db855b8bf7d11be6c55a4e07dcc9'],[156],SMUP,0x1950bb2f0732a78b98adab118791b997a39bb29b,"[('def setTarget(address _target): # not payable', (31, 36)), ('def setUseDELEGATECALL(bool _value): # not payable', (26, 30))]"
+0x0ea8c18c54cd9c0ede12f7c24be070eb649812b2,False,True,True,False,True,Inactive Proxy: Logics cannot be obtained dynamically,[],[32],SMUP,0x0ea8c18c54cd9c0ede12f7c24be070eb649812b2,"[('def updateImplementation(address _newImplementation): # not payable', (41, 56))]"
+0xdb2382413bcb9c2f1b6b62b52238558266361d68,True,True,True,True,True,1,['0xf17461c73d32f7545adfdd478a6ec5a382f5a58f'],[32],SMUP,0xdb2382413bcb9c2f1b6b62b52238558266361d68,"[('def updateImplementation(address _newImplementation): # not payable', (41, 56))]"
+0x79322637c9438f52303dec843589fd35542920b8,False,True,True,False,True,Inactive Proxy: Logics cannot be obtained dynamically,[],[32],SMUP,0x79322637c9438f52303dec843589fd35542920b8,"[('def updateImplementation(address _newImplementation): # not payable', (41, 56))]"
+0x0a38e4bbb694f8ef7ee12607c87ffe9b9acffb40,False,True,True,False,True,Inactive Proxy: Logics cannot be obtained dynamically,[],[29],SMUP,0x0a38e4bbb694f8ef7ee12607c87ffe9b9acffb40,"[('def updateImplementation(address _newImplementation): # not payable', (38, 53))]"
+0xde4612e2cfc8c1f2e6b6e07df86910f1fefc61a4,False,True,True,False,True,Inactive Proxy: Logics cannot be obtained dynamically,[],"[389, 489, 522, 1502]",SMUP,0xde4612e2cfc8c1f2e6b6e07df86910f1fefc61a4,"[('def unknown078a13b1(addr _param1, addr _param2, addr _param3, addr _param4) payable: ', (473, 488)), ('def unknownf5e95acb(addr _param1, addr _param2, addr _param3, addr _param4, addr _param5, addr _param6, addr _param7, addr _param8, addr _param9) payable: ', (703, 738))]"
+0x0f570474350125ab859d7f72b01a8a6539156a81,False,True,True,False,True,Inactive Proxy: Logics cannot be obtained dynamically,[],[29],SMUP,0x0f570474350125ab859d7f72b01a8a6539156a81,"[('def updateImplementation(address _newImplementation): # not payable', (38, 53))]"
+0xdb28719f7f938507dbfe4f0eae55668903d34a15,False,True,True,False,True,Inactive Proxy: Logics cannot be obtained dynamically,[],"[488, 616]",SMUP,0xdb28719f7f938507dbfe4f0eae55668903d34a15,"[('def unknown078a13b1(addr _param1, addr _param2, addr _param3, addr _param4) payable: ', (600, 615)), ('def unknownf5e95acb(addr _param1, addr _param2, addr _param3, addr _param4, addr _param5, addr _param6, addr _param7, addr _param8, addr _param9) payable: ', (837, 872))]"
+0x0fa93fab61268d05ec9b7cc2f576abbc04c842cd,True,True,True,False,True,Inactive Proxy: Logics cannot be obtained dynamically,[],[56],SMUP,0x0fa93fab61268d05ec9b7cc2f576abbc04c842cd,"[('def unknownfd840de2(uint256 _param1): # not payable', (65, 73))]"
+0x1b14d9f6cc881b890b8364578a46a170b6e7e2c5,False,True,True,False,True,Inactive Proxy: Logics cannot be obtained dynamically,[],[32],SMUP,0x1b14d9f6cc881b890b8364578a46a170b6e7e2c5,"[('def updateImplementation(address _newImplementation): # not payable', (41, 56))]"
+0x2a8facc9d49fbc3ecff569847833c380a13418a8,True,True,True,True,True,2,"['0x374a69399c52650ed11b4c897265076766adb1dc', '0xafa40da6a373ec4bbfddaf2e695f3014af5376c5']",[14],SMUP,0x2a8facc9d49fbc3ecff569847833c380a13418a8,"[('def updateImplementation(address _newImplementation) payable: ', (39, 55))]"
+0xd06029b23e9d4cd24bad01d436837fa02b8f0dd9,True,True,True,True,True,1,['0x74e4e5eb5aae2fbef42ec07298cab532425cb466'],[32],SMUP,0xd06029b23e9d4cd24bad01d436837fa02b8f0dd9,"[('def updateImplementation(address _newImplementation): # not payable', (41, 56))]"
+0x9a15f3a682d086c515be4037bda3b0676203a8ef,True,True,True,True,True,1,['0x5e87d84828eddd249e7463e9fbd06a49920114e9'],[37],SMUP,0x9a15f3a682d086c515be4037bda3b0676203a8ef,"[('def updateImplementation(address _newImplementation): # not payable', (46, 60))]"
+0x99cdd3dad1efcffa57a5e622939c9d5411cc8eb1,True,True,True,True,True,2,"['0x54cd017f0d7cdef1d0dc265926aa9b3ac7774a0c', '0xb555a04c9f364f97c647f0969ccdde6704574050']",[32],SMUP,0x99cdd3dad1efcffa57a5e622939c9d5411cc8eb1,"[('def updateImplementation(address _newImplementation): # not payable', (41, 56))]"
+0xa0c68c638235ee32657e8f720a23cec1bfc77c77,True,True,True,True,True,11,"['0xd4888fab8bd39a663b63161f5ee1eae31a25b653', '0x6abb753c1893194de4a83c6e8b4eadfc105fd5f5', '0x8f372f5404514cec63a3f88baac772cc620f2281', '0x296ac8fb39279bbcff6edc9fddf1d2f4aea1631b', '0x4015ccad9218b109d3339b356392c6ee8438e5d0', '0xecfdefe1d67f93d3c154b67fd9d4ba62ab820dea', '0x0bff34272af650632236703a3d6d8e3c133421cb', '0x37d26dc2890b35924b40574bac10552794771997', '0x1633012a2cb27efbc2944f2e43b9197bc3964359', '0x639f13d5f30b47c792b6851238c05d0b623c77de', '0x7cfa0f105a4922e89666d7d63689d9c9b1ea7a19']",[20],SMUP,0xa0c68c638235ee32657e8f720a23cec1bfc77c77,"[('def updateImplementation(address _newImplementation): # not payable', (39, 54))]"
+0xa2611f4488c92e1a91eb4d2a8d30110eba9925b5,True,True,True,True,True,1,['0xe7424ab0e1828d83ad402da5644142e55598c782'],[32],SMUP,0xa2611f4488c92e1a91eb4d2a8d30110eba9925b5,"[('def updateImplementation(address _newImplementation): # not payable', (41, 56))]"
+0x9923263fa127b3d1484cfd649df8f1831c2a74e4,True,True,True,True,True,4,"['0x94d40724d6aa4ab313065006e4ba8ca448dcdfae', '0xfdc26cda2d2440d0e83cd1dee8e8be48405806dc', '0x0f92d459b20d21f6bf9e02056ea9165d3f78ba62', '0xab00328234bc22430c78847094a68a6836574ffb']",[20],SMUP,0x9923263fa127b3d1484cfd649df8f1831c2a74e4,"[('def updateImplementation(address _newImplementation): # not payable', (39, 54))]"
+0x98dfb360cbc65045a8415fa2514f549cd3000f02,True,True,True,True,True,1,['0xbacb0a2bc96ba44c23dcc91a39d2f8fd61ca5620'],[57],SMUP,0x98dfb360cbc65045a8415fa2514f549cd3000f02,"[('def updateImplementation(address _newImplementation): # not payable', (66, 80))]"
+0xa89bd606d5dadda60242e8dedeebc95c41ad8986,True,True,True,True,True,3,"['0xee39e4a6820ffc4edaa80fd3b5a59788d515832b', '0x12e0f9a356c60fc3dd04abde87e8f6e3cbbaf596', '0x621944ba45358656a19e95f9da05d7f54f2fecd2']",[17],SMUP,0xa89bd606d5dadda60242e8dedeebc95c41ad8986,"[('def updateImplementation(address _newImplementation): # not payable', (42, 57))]"
+0xcee7053f055dee713889c99341d6e2f76d584d0c,True,True,True,True,True,2,"['0x02708519ce8e710db13f7c534ddf994cfa0b0ca4', '0x1e624ab76809c4be098f38c3a4250b5306ade2ce']",[17],SMUP,0xcee7053f055dee713889c99341d6e2f76d584d0c,"[('def updateImplementation(address _newImplementation): # not payable', (42, 57))]"
+0x932532aa4c0174b8453839a6e44ee09cc615f2b7,True,True,True,True,True,5,"['0x3bf44ad2e36f39572175c72c1d0fa85933c6e0b6', '0x34af15a166def1d89d38a70120ea33cd8cc10c45', '0x7fbd00c577caa70318bcf1c6c11e23732823b387', '0x58adfa7960bf7cf39965b46d796fe66cd8f38283', '0xba31389292f7edfc7b60b937b97014b4c354689b']",[20],SMUP,0x932532aa4c0174b8453839a6e44ee09cc615f2b7,"[('def updateImplementation(address _newImplementation): # not payable', (39, 54))]"
+0x86e4dc95c7fbdbf52e33d563bbdb00823894c287,True,True,True,True,True,3,"['0x5a09cd4601b66bc107d377ab81e0dbb5dfabaa84', '0x17ad93683697ce557ef7774660394456a7412b00', '0x536c55cfe4892e581806e10b38dfe8083551bd03']",[57],SMUP,0x86e4dc95c7fbdbf52e33d563bbdb00823894c287,"[('def updateImplementation(address _newImplementation): # not payable', (66, 80))]"
+0x5e3ef299fddf15eaa0432e6e66473ace8c13d908,True,True,True,True,True,10,"['0xf66f01bc2d3e83312e26244550537fe2d2995fee', '0x9a6bc66ce2e008d59654bc0053ce2d01f09c8b90', '0xf58ec2f599ec32f2ae104984f41c1fb1377eceba', '0xb955ee20a7f1d6f9bd68805e6eefe2cbc5d8220d', '0xd8eeb76bf9fec7efe3772383d5f38fd02243e56c', '0x97a3500083348a147f419b8a65717909762c389f', '0xd6f5c46d4e1a02f9d145cee41d2f8af30d8d2d76', '0xba9ac3c9983a3e967f0f387c75ccbd38ad484963', '0x644a0a4a4a9892f57af7dff1db23ce2a235a255e', '0x3ad88467e40399dc6ae10427f8b0842348d9076c']",[22],SMUP,0x5e3ef299fddf15eaa0432e6e66473ace8c13d908,"[('def updateImplementation(address _newImplementation): # not payable', (43, 58))]"
+0x47744b96f799a61874a3cd73b394b7feaa6c3e19,True,True,True,True,True,1,['0x4190da3c1514b99df41d4cbb72125dd201a8f598'],[17],SMUP,0x47744b96f799a61874a3cd73b394b7feaa6c3e19,"[('def updateImplementation(address _newImplementation) payable: ', (42, 58))]"
+0x44c9d70d1148d88134ddc6554c94d2f8191754cf,True,True,True,True,True,1,['0x267d42aa73d2efcd2e1553d94ca7bdb2423a6c2c'],[17],SMUP,0x44c9d70d1148d88134ddc6554c94d2f8191754cf,"[('def updateImplementation(address _newImplementation): # not payable', (42, 57))]"
+0xd6647c5ef783eacc4f02686e3dc62198394702a5,True,True,True,True,True,2,"['0x4a10ee6cb6508a3f38278153f846ec8f7885570d', '0x34905bf0a490df50680a82a5ab089a963ee11224']",[17],SMUP,0xd6647c5ef783eacc4f02686e3dc62198394702a5,"[('def updateImplementation(address _newImplementation): # not payable', (42, 57))]"
+0xa0c68c638235ee32657e8f720a23cec1bfc77c77,True,True,True,True,True,11,"['0xd4888fab8bd39a663b63161f5ee1eae31a25b653', '0x6abb753c1893194de4a83c6e8b4eadfc105fd5f5', '0x8f372f5404514cec63a3f88baac772cc620f2281', '0x296ac8fb39279bbcff6edc9fddf1d2f4aea1631b', '0x4015ccad9218b109d3339b356392c6ee8438e5d0', '0xecfdefe1d67f93d3c154b67fd9d4ba62ab820dea', '0x0bff34272af650632236703a3d6d8e3c133421cb', '0x37d26dc2890b35924b40574bac10552794771997', '0x1633012a2cb27efbc2944f2e43b9197bc3964359', '0x639f13d5f30b47c792b6851238c05d0b623c77de', '0x7cfa0f105a4922e89666d7d63689d9c9b1ea7a19']",[20],SMUP,0xa0c68c638235ee32657e8f720a23cec1bfc77c77,"[('def updateImplementation(address _newImplementation): # not payable', (39, 54))]"
+0x4b6c07b8940a7602fe4332afa915b366e56eace5,False,False,False,False,False,0,[],,,,
+0x0d1c4e5c07b071aa4e6a14a604d4f6478caac7b4,False,False,False,False,False,0,[],,,,
+0xd6f74ee0787e71d3491ee0f148b8afc11c3be21f,False,False,False,False,False,0,[],,,,
+0x9d10dcd04130b247cd08b31f64e60fa3b1502985,False,False,False,False,False,0,[],,,,
+0x778d2d3e3515e42573eb1e6a8d8915d4a22d9d54,False,False,False,False,False,0,[],,,,
+0x28d8458c76c7029257baa10f86e9da7481c513fb,False,False,False,False,False,0,[],,,,
+0x585fd19eba8f1a81f37c5eb322fd4b8d911367e8,False,False,False,False,False,0,[],,,,
+0x7634f2a1741a683ccda37dce864c187f990d7b4b,False,False,False,False,False,0,[],,,,
+0xdc01020857afbae65224cfcedb265d1216064c59,False,False,False,False,False,0,[],,,,
+0x54ea32890a1bdb1c1ae106c921be010f2c7faac2,False,False,False,False,False,0,[],,,,
+0x74e9a032b04d9732e826eecfc5c7a1c183602fb1,False,False,False,False,False,0,[],,,,
+0x97607b048aea97a821c3edc881af7743f8868950,False,False,False,False,False,0,[],,,,
+0x161a2283bb46eda32b6792f00c8958bb117d750b,False,False,False,False,False,0,[],,,,
+0x74beadeda41f10948bab911857a55bad93ce7636,False,False,False,False,False,0,[],,,,
+0x17ec614db5db8c6917ba7be639507d3ceb95a4d2,False,False,False,False,False,0,[],,,,
+0xa2c8a0841202a3ed51e464140bfe206494384cb6,False,False,False,False,False,0,[],,,,
+0x43ae8037179a5746d618da077a38ddeea9640cba,False,False,False,False,False,0,[],,,,
+0x97767d7d04fd0db0a1a2478dcd4ba85290556b48,False,False,False,False,False,0,[],,,,
+0x273ca27361cbf5169fcb7c1391968b6371294420,False,False,False,False,False,0,[],,,,
+0xde3eaa39875d0528a575dbcc436b2c6ae9fc353c,False,False,False,False,False,0,[],,,,
+0xd3970a9d35d2be3aaf62d2b5b2be3ee303ac4228,False,False,False,False,False,0,[],,,,
+0xd64d83829d92b5bda881f6f61a4e4e27fc185387,False,False,False,False,False,0,[],,,,
+0x138506b2f8e55d27350b90a666edc02ea31030df,False,False,False,False,False,0,[],,,,
+0x27406ebf0b76923d93b4c6c6224bcab7fff11f87,False,False,False,False,False,0,[],,,,
+0x9ab91bdce9ae5d66d7d925699743fa3a503c8eb8,False,False,False,False,False,0,[],,,,
+0x95bc99186b61168d093e1295d2221944813389d6,False,False,False,False,False,0,[],,,,
+0x07961c77ef152e849cd76f4b4aef802bda3ad740,False,False,False,False,False,0,[],,,,
+0x005d19ca7ff9d79a5bdf0805fc01d9d7c53b6827,False,False,False,False,False,0,[],,,,
+0x0517a56da8a517e3b2d484cc5f1da4bdcfe68ec3,False,False,False,False,False,0,[],,,,
+0x18fcc34bdeaaf9e3b69d2500343527c0c995b1d6,False,False,False,False,False,0,[],,,,
+0x02ec0ea0ac42c1b02541e09d9db4aa26d75ebda6,True,False,False,False,False,0,[],,,,
+0x9a6bc66ce2e008d59654bc0053ce2d01f09c8b90,False,False,False,False,False,0,[],,,,
+0x018a06bf0b1550e2dbb693aae68d60d4d951012d,False,False,False,False,False,0,[],,,,
+0xa9167a4b71b5b0c4735a4fb53607819e890390dd,False,False,False,False,False,0,[],,,,
+0x54f25546260c7539088982bcf4b7dc8edef19f21,False,False,False,False,False,0,[],,,,
+0xcf9e60005c9aca983caf65d3669a24fdd0775fc0,False,False,False,False,False,0,[],,,,
+0x1ca903aa46aa58c9e947f7504e02760d581e4ecf,False,False,False,False,False,0,[],,,,
+0x0352557b007a4aae1511c114409b932f06f9e2f4,True,False,False,False,False,0,[],,,,
+0x07c1e81c345a7c58d7c24072efc5d929bd0647ad,False,False,False,False,False,0,[],,,,
+0x0a51952e61a990e585316caa3d6d15c8d3e55976,True,False,False,False,False,0,[],,,,
+0x0b7f3582bda7275b10e2c39f494b1de78bc002e6,True,False,False,False,False,0,[],,,,
+0x0fed38108bdb8e62ef7b5680e8e0726e2f29e0de,True,False,False,False,False,0,[],,,,
+0x104edf1da359506548bfc7c25ba1e28c16a70235,True,False,False,False,False,0,[],,,,
+0x144868500c3244af62fd6b89dde6ef2597b34413,True,False,False,False,False,0,[],,,,
+0x2a94a7d0dfd2e0c4fa359e88bc67d2782386e108,True,False,False,False,False,0,[],,,,
+0x1a4505543c92084be57ed80113eab7241171e7a8,False,False,False,False,False,0,[],,,,
+0x18f827dc98f3c4a7277a2e54f605871e3391f3c5,False,False,False,False,False,0,[],,,,
+0x58f93087c03a2049a1a19745311399d6dd65fe91,False,False,False,False,False,0,[],,,,
+0x013d16cb1bd493bbb89d45b43254842fadc169c8,False,False,False,False,False,0,[],,,,
+0x510adfdf6e7554c571b7cd9305ce91473610015e,False,False,False,False,False,0,[],,,,
+0x4e2f13a347584b17f99521497b987f01660b877d,False,False,False,False,False,0,[],,,,
+0x16e5ace2b8a9de5c42fcfd85d6ec5992a43c0837,False,False,False,False,False,0,[],,,,
+0x02a8d76fa48da7bd959579478416d00fa4eb107f,False,False,False,False,False,0,[],,,,
+0xda2168521c501adb5dc8e2a81a86ec95b32abe71,False,False,False,False,False,0,[],,,,
+0x0bfdc04b38251394542586969e2356d0d731f7de,False,False,False,False,False,0,[],,,,
+0x945567beb012ad96c3d3a9a41f1a7a0bbcb19864,False,False,False,False,False,0,[],,,,
+0x7808bfd6e20afe2d82b159590ca5635b6263db3f,False,False,False,False,False,0,[],,,,
+0x967968963517afdc9b8ccc9ad6649bc507e83a7b,False,False,False,False,False,0,[],,,,
+0x0689b1f72930eb25cacb99f790d2778e713a2c33,False,False,False,False,False,0,[],,,,
+0x08f30ecf2c15a783083ab9d5b9211c22388d0564,False,False,False,False,False,0,[],,,,
+0x2a417c61b8062363e4ff50900779463b45d235f6,False,False,False,False,False,0,[],,,,
+0x4d8dbd193d89b7b506be5dc9db75b91da00d6a1d,False,False,False,False,False,0,[],,,,
+0xa8de6828d358c2d9f93f4913dec4f14894139b53,False,False,False,False,False,0,[],,,,
