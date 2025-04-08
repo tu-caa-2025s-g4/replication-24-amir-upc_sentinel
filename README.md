@@ -10,7 +10,7 @@ For each input contract address, UPC Sentinel produces a binary label indicating
 
 ![UPC Sentinel architecture](./UPC_Sentinel_Arch.JPG)
 
-## Current Detection Capabilities of UPC Sentinel
+## UPC Sentinel (V2)
 
 **UPC Sentinel** was originally designed to detect **active Upgradeability Proxy Contracts (UPCs)**. An *active UPC* refers to a proxy contract whose forwarding functionality (e.g., via `delegatecall`) has been used at least once after deployment. This detection relies on **dynamic analysis**, specifically, analyzing transactions that interact with the contract. Since dynamic analysis depends on actual transactional activity, **contracts with no interactions cannot be classified as proxies** using this method alone. However, within UPC Sentinel’s **Upgradeability Pattern Detector** layer, we’ve embedded a **static analysis component** that analyzes the **decompiled bytecode** of smart contracts. This static detection approach is functionally equivalent to dynamic analysis, with the added benefit of detecting **inactive proxies** (those with no on-chain activity). The trade-off is a potential reduction in scalability due to the need for bytecode decompilation.
 
