@@ -25,6 +25,13 @@ Analysis of the 100 sampled contracts indicates that **37** are identified as Up
 | Ground Truth: UPC → UPC Sentinel: ❌ Non-UPC           | 8         | Not detected as UPC by UPC Sentinel, but labeled as UPC in the ground truth.     |
 | **Total Discrepancies**                                | **21**    | Total number of mismatches between UPC Sentinel and the ground truth labels.     |
 
+# 📊 Distribution of Upgradeability Reference Designs
+| **Reference Design**                                   | **Number of UPCs**                                                |
+|--------------------------------------------------------|:-----------------|
+| SMUP           | 36       |
+| DUP            | 0        |
+| ESUP           | 1        |
+
 # 📂 Datasets
 
 The following datasets are included in this directory:
