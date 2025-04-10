@@ -24,6 +24,7 @@ Analysis of the 100 sampled contracts indicates that **37** are identified as Up
 | Ground Truth: Non-UPC → UPC Sentinel: ✅ UPC           | 13        | Detected as UPC by UPC Sentinel, but labeled as Non-UPC in the ground truth.     |
 | Ground Truth: UPC → UPC Sentinel: ❌ Non-UPC           | 8         | Not detected as UPC by UPC Sentinel, but labeled as UPC in the ground truth.     |
 | **Total Discrepancies**                                | **21**    | Total number of mismatches between UPC Sentinel and the ground truth labels.     |
+| **Ground Truth Accuracy**                                         | **79%**    | Total ratio of correctly classified instances by the ground truth.     |
 
 # 📊 Distribution of Upgradeability Reference Designs
 | **Reference Design**                                   | **Number of UPCs**                                                |
